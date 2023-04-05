@@ -1,17 +1,15 @@
-Typing Speed App
-This is a simple Python GUI application that tests the user's typing speed. It displays a random sentence that the user must type as quickly and accurately as possible, and displays their typing speed in words per minute (WPM).
+This is a simple typing speed app built using Python's tkinter module. The app generates a random string of words and times the user as they type it. The app also displays the user's typing speed and highest score.
 
-Usage
-To use this program, simply run the TypingTest() function in your Python environment. This will launch the GUI window and display a random sentence for the user to type.
+Getting Started
+To run the app, you need to have Python 3 and the following modules installed:
 
-Once the user starts typing, the program will start a timer and calculate their typing speed in WPM. If the user makes a mistake, the input field will turn red to indicate an error. If the user types the entire sentence correctly, the input field will turn green to indicate success.
+tkinter
+threading
+time
+random_words
+Once the modules are installed, you can run the app by running the typing_speed.py file.
 
-The user can reset the test at any time by clicking the "Reset" button. This will clear the input field, reset the timer and WPM counter, and display a new random sentence for the user to type.
+How to Use
+When you run the app, a window will appear with the random string of words generated for you to type. Start typing in the input field and the timer will start automatically. If you make a mistake, the input field will turn red. Once you complete typing the string, the timer will stop and your typing speed will be displayed. You can reset the app by clicking the "Reset" button.
 
-Dependencies
-This program requires the tkinter and random_words packages to be installed. You can install them using pip:
-
-Copy code
-pip install tkinter
-pip install random_words
-
+The app also displays your highest score in WPM (Words Per Minute). Your highest score is saved in a file called "high_score.txt" in the same directory as the app.
