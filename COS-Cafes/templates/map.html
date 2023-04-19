@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_27e1e81d0a56dd639431406f785bd5ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_27e1e81d0a56dd639431406f785bd5ce" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_27e1e81d0a56dd639431406f785bd5ce = L.map(
+                "map_27e1e81d0a56dd639431406f785bd5ce",
+                {
+                    center: [38.8630943, -104.8102393],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5f3bbda2067f61c16f6d3c187e29c39d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_27e1e81d0a56dd639431406f785bd5ce);
+        
+    
+            var marker_d17f84f0cf000df6c870436dbb5d8172 = L.marker(
+                [38.8368583, -104.8224927],
+                {}
+            ).addTo(map_27e1e81d0a56dd639431406f785bd5ce);
+        
+    
+        var popup_c4350086320eb66f29d5705540ce48a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_461d43a1f35f3b18a5023731cc530fb6 = $(`<div id="html_461d43a1f35f3b18a5023731cc530fb6" style="width: 100.0%; height: 100.0%;"><i>Story Coffee Company</i></div>`)[0];
+                popup_c4350086320eb66f29d5705540ce48a7.setContent(html_461d43a1f35f3b18a5023731cc530fb6);
+            
+        
+
+        marker_d17f84f0cf000df6c870436dbb5d8172.bindPopup(popup_c4350086320eb66f29d5705540ce48a7)
+        ;
+
+        
+    
+    
+            var marker_e3d4d03a18fd1b02e3c2401688fc070a = L.marker(
+                [38.8630943, -104.8102393],
+                {}
+            ).addTo(map_27e1e81d0a56dd639431406f785bd5ce);
+        
+    
+        var popup_e603ad8bb4117360e18bbffb400c3f81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0c4766139c346e9873852e282cdf506 = $(`<div id="html_f0c4766139c346e9873852e282cdf506" style="width: 100.0%; height: 100.0%;"><i>Humble Coffee</i></div>`)[0];
+                popup_e603ad8bb4117360e18bbffb400c3f81.setContent(html_f0c4766139c346e9873852e282cdf506);
+            
+        
+
+        marker_e3d4d03a18fd1b02e3c2401688fc070a.bindPopup(popup_e603ad8bb4117360e18bbffb400c3f81)
+        ;
+
+        
+    
+    
+            var marker_95a83f655cd127020d46f2aba16e4527 = L.marker(
+                [38.8979109, -104.8322053],
+                {}
+            ).addTo(map_27e1e81d0a56dd639431406f785bd5ce);
+        
+    
+        var popup_01e26bd7b301dd37437a105c7c7d32a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_398f1ee794bebd46f01481711f199b8a = $(`<div id="html_398f1ee794bebd46f01481711f199b8a" style="width: 100.0%; height: 100.0%;"><i>Third Space Coffee</i></div>`)[0];
+                popup_01e26bd7b301dd37437a105c7c7d32a1.setContent(html_398f1ee794bebd46f01481711f199b8a);
+            
+        
+
+        marker_95a83f655cd127020d46f2aba16e4527.bindPopup(popup_01e26bd7b301dd37437a105c7c7d32a1)
+        ;
+
+        
+    
+    
+            var marker_9bd32eadc59b3bd7c7b70fd83fdb634e = L.marker(
+                [38.9091484, -104.7828618],
+                {}
+            ).addTo(map_27e1e81d0a56dd639431406f785bd5ce);
+        
+    
+        var popup_9bde53ea365f59ce06d55204074a08c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c109f472e463b12e8e48789f83744124 = $(`<div id="html_c109f472e463b12e8e48789f83744124" style="width: 100.0%; height: 100.0%;"><i>Hold Fast Coffee Co</i></div>`)[0];
+                popup_9bde53ea365f59ce06d55204074a08c3.setContent(html_c109f472e463b12e8e48789f83744124);
+            
+        
+
+        marker_9bd32eadc59b3bd7c7b70fd83fdb634e.bindPopup(popup_9bde53ea365f59ce06d55204074a08c3)
+        ;
+
+        
+    
+    
+            var marker_095ff35cea124ea1f2f2c7b058d98051 = L.marker(
+                [38.9214839, -104.7394471],
+                {}
+            ).addTo(map_27e1e81d0a56dd639431406f785bd5ce);
+        
+    
+        var popup_89e21d9278d5c811b66f64f305ada89e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bdc65b5e8f137f1a1b561c490b0b6c1 = $(`<div id="html_2bdc65b5e8f137f1a1b561c490b0b6c1" style="width: 100.0%; height: 100.0%;"><i>Wayfinder Coffee Co</i></div>`)[0];
+                popup_89e21d9278d5c811b66f64f305ada89e.setContent(html_2bdc65b5e8f137f1a1b561c490b0b6c1);
+            
+        
+
+        marker_095ff35cea124ea1f2f2c7b058d98051.bindPopup(popup_89e21d9278d5c811b66f64f305ada89e)
+        ;
+
+        
+    
+    
+            var marker_d25c42422fffadddf1310475f8ed107d = L.marker(
+                [39.0011452, -104.7968649],
+                {}
+            ).addTo(map_27e1e81d0a56dd639431406f785bd5ce);
+        
+    
+        var popup_3a1e6f0f4164006ac4e8e89415b45e59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70cf08896991be9460cfc54161eb8c0a = $(`<div id="html_70cf08896991be9460cfc54161eb8c0a" style="width: 100.0%; height: 100.0%;"><i>Mission Coffee Roasters Inc</i></div>`)[0];
+                popup_3a1e6f0f4164006ac4e8e89415b45e59.setContent(html_70cf08896991be9460cfc54161eb8c0a);
+            
+        
+
+        marker_d25c42422fffadddf1310475f8ed107d.bindPopup(popup_3a1e6f0f4164006ac4e8e89415b45e59)
+        ;
+
+        
+    
+    
+            var marker_1604dca9a4f3bbc5cee8fe7c7b9a6c4a = L.marker(
+                [39.0024988, -104.7995794],
+                {}
+            ).addTo(map_27e1e81d0a56dd639431406f785bd5ce);
+        
+    
+        var popup_a621decb531ccab7d95b2dfc1edd481f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61eae7fc2411692161bcb7bd16898cf6 = $(`<div id="html_61eae7fc2411692161bcb7bd16898cf6" style="width: 100.0%; height: 100.0%;"><i>Loyal Coffee</i></div>`)[0];
+                popup_a621decb531ccab7d95b2dfc1edd481f.setContent(html_61eae7fc2411692161bcb7bd16898cf6);
+            
+        
+
+        marker_1604dca9a4f3bbc5cee8fe7c7b9a6c4a.bindPopup(popup_a621decb531ccab7d95b2dfc1edd481f)
+        ;
+
+        
+    
+    
+            var marker_f1d91d315bc1c729e2fac1e1061f9475 = L.marker(
+                [39.0109237, -104.8063765],
+                {}
+            ).addTo(map_27e1e81d0a56dd639431406f785bd5ce);
+        
+    
+        var popup_960c58425a0a2793e3225612469078ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4fc22d7d7ab117136e616e6c9f3702f = $(`<div id="html_d4fc22d7d7ab117136e616e6c9f3702f" style="width: 100.0%; height: 100.0%;"><i>Coffee and Tea Zone</i></div>`)[0];
+                popup_960c58425a0a2793e3225612469078ea.setContent(html_d4fc22d7d7ab117136e616e6c9f3702f);
+            
+        
+
+        marker_f1d91d315bc1c729e2fac1e1061f9475.bindPopup(popup_960c58425a0a2793e3225612469078ea)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
+.card {
+  flex-direction: row;
+}
+.card img {
+  width: 30%;
+}
+
+.row-height {
+    height: 100vh;
+}
+
+.mid {
+    height: 100%;
+    overflow-y: scroll;
+}
+
